@@ -1,8 +1,6 @@
 <template>
   <div class="home">
 
-
-
  <section id="intro" class="clearfix">
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-center">
@@ -39,22 +37,22 @@
           
         </div>
   
-        <div class="col-md-6 col-sm-10 intro-img order-md-last order-last parent">
+        <div class="col-md-6 intro-img order-md-last order-last parent">
           <img src="img/Rectangle.png" alt="" class="image1 mt-5" style="width:60%;">
           <img src="img/Image (5).png" alt="" class="image2 mt-5" style="width:50%;">
           <img src="img/Component 3.png" alt="" class="img4 float-left mb-2" style="width:200px">
+        <img src="img/Component 5.png" alt="" class="img3 float-left mb-2" style="width:200px">
         </div>
       </div>
 
     </div>
   </section><!-- #intro -->
 
+  <main id="main">
 
-
-
-
-    <main id="main">
-
+    <!--==========================
+      About Us Section
+    ============================-->
     <section id="about">
 
       <div class="container">
@@ -109,11 +107,10 @@
 
     </section><!-- #about -->
 
-
-
-
-    
 <div class="clearfix">...</div>
+    <!--==========================
+      Services Section
+    ============================-->
     <section id="services" class="section">
       <div class="container">
 
@@ -184,9 +181,6 @@
 
 
 
-
-
-    
     <section id="services" class="section mb-1" style="background-color:#E6F7F7;">
       <div class="container">
 
@@ -261,22 +255,10 @@
       </div>
     </section><!-- #services -->
 
-
-
-
-
-
-    
 <div class="clearfix">...</div>
 <div class="clearfix">...</div>
 <div class="clearfix">...</div>
 <div class="clearfix">...</div>
-
-
-
-
-
-
 
         <section id="services" class="section mt-1" style="background-color:#000000;">
       <div class="container">
@@ -470,12 +452,9 @@
 
     </section><!-- #services -->
 
-
-
-
-
-
-    
+    <!--==========================
+      Why Us Section
+    ============================-->
      <section id="about">
 
       <div class="container mt-3 mb-3">
@@ -485,6 +464,7 @@
         
         
           <img src="img/Image.png" alt="" class="imag2" style="width:70%;">
+        <img src="img/Component 5.png" alt="" class="img32 float-left mb-2" style="width:200px">
         
         </div>
 
@@ -510,12 +490,6 @@
     </section><!-- #about -->
 
 
-
-
-
-
-
-    
       <section id="services" class="section mt-1" style="background-color:#000000;">
       <div class="container">
 
@@ -645,9 +619,12 @@
   <!-- <div id="preloader"></div> -->
 
 
-
-
-
-
   </div>
-  </template>
+</template>
+
+<script>
+// @ is an alias to /src
+//import HelloWorld from "@/components/HelloWorld.vue";
+
+
+</script>
